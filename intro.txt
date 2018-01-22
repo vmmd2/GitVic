@@ -6,3 +6,19 @@ ssh://git@git-temp/SG/GEAR.git
 PRUEBA
 PRUEBA DOS
 PRUEBA TRES
+
+PRUEBA CUATRO
+
+
+- git add -A                  ->  Sube cambios
+  git comit -m "texto comit"  ->  Da mensaje al cambio subido
+  
+
+- Ramas
+  git branch ->         ver ramas
+  git branch rama1 ->   crea rama1
+  git checkout rama1 -> nos mueve a la rama1
+  
+
+  
+	
