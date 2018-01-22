@@ -9,20 +9,39 @@ PRUEBA TRES
 
 PRUEBA CUATRO
 
+- CONFIGURAR 
+
+  git config --global user.name "victor"   -> Configura el usuario
+  git config --global user.email "victor.mendz@panel" -> Configura el email
+  git config --global --list -> ver configuracion
+  
+- PROYECTO INICIAL
+
+  Entrar con git bash y movernos al dir donde este nuestro proyecto
+  
+  git init -> marca el inicio del proyecto, para que monitoree ese directorio
+  git status  -> Ver el estado del proyecto , los cambios
+  git add filename.txt  -> Agregar fichero
+  git add -A -> Agrega todo lo que tenemos
+  git commit -m "mensaje" -> guarda lo agregado antes con el add
+  
+  
+- COMITS
+  
   git status  -> Ver los cambios
   git log  -> Ver los commits
   git add -A                  ->  Sube cambios
   git commit -m "texto comit" ->  Da mensaje al cambio subido con add
-  
+ 
+- RAMAS
 
-- Ramas
-  git branch ->         ver ramas
-  git branch rama1    ->   crea rama1
-  git checkout rama 1 -> nos mueve a la rama1
-  git branch -D rama1 -> Borra una la rama1
-  git checkout -b rama2 -> nos crea rama2 y nos mueve a ella
+  git branch            ->   ver ramas
+  git branch rama1      ->   crea rama1
+  git checkout rama 1   ->   nos mueve a la rama1
+  git branch -D rama1   ->   Borra una la rama1
+  git checkout -b rama2 ->   nos crea rama2 y nos mueve a ella
   
-- Fusiones o Merges
+- FUSIONES O MERGES
 
   git checkout master   -> situarnos en la rama destino
   git merge    Test     ->  Master absorbe lo de Test
