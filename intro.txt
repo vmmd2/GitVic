@@ -9,15 +9,24 @@ PRUEBA TRES
 
 PRUEBA CUATRO
 
-
-- git add -A                  ->  Sube cambios
-  git comit -m "texto comit"  ->  Da mensaje al cambio subido
+  git log  -> Ver los commits
+  git add -A                  ->  Sube cambios
+  git comit -m "texto comit"  ->  Da mensaje al cambio subido con add
   
 
 - Ramas
   git branch ->         ver ramas
   git branch rama1 ->   crea rama1
   git checkout rama1 -> nos mueve a la rama1
+  git branch -d rama1 -> Borra una la rama1
+  
+- Fusiones o Merges
+
+  git checkout master   -> situarnos en la rama destino
+  git merge    Test     ->  Master absorbe lo de Test
+  
+  
+  
   
 
   
