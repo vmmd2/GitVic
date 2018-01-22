@@ -9,6 +9,7 @@ PRUEBA TRES
 
 PRUEBA CUATRO
 
+  git status  -> Ver los cambios
   git log  -> Ver los commits
   git add -A                  ->  Sube cambios
   git commit -m "texto comit" ->  Da mensaje al cambio subido con add
@@ -16,9 +17,10 @@ PRUEBA CUATRO
 
 - Ramas
   git branch ->         ver ramas
-  git branch rama1 ->   crea rama1
-  git checkout rama1 -> nos mueve a la rama1
-  git branch -d rama1 -> Borra una la rama1
+  git branch rama1    ->   crea rama1
+  git checkout rama 1 -> nos mueve a la rama1
+  git branch -D rama1 -> Borra una la rama1
+  git checkout -b rama2 -> nos crea rama2 y nos mueve a ella
   
 - Fusiones o Merges
 
