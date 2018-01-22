@@ -3,12 +3,6 @@ http://ecohq.panel.es/scm/git/GEAR_1155-64
 git@git-temp:SG/GEAR.git
 ssh://git@git-temp/SG/GEAR.git
 
-PRUEBA
-PRUEBA DOS
-PRUEBA TRES
-
-PRUEBA CUATRO
-
 - CONFIGURAR 
 
   git config --global user.name "victor"   -> Configura el usuario
@@ -21,30 +15,41 @@ PRUEBA CUATRO
   
   git init -> marca el inicio del proyecto, para que monitoree ese directorio
   git status  -> Ver el estado del proyecto , los cambios
-  git add filename.txt  -> Agregar fichero
-  git add -A -> Agrega todo lo que tenemos
-  git commit -m "mensaje" -> guarda lo agregado antes con el add
+  git add filename.txt           -> Agregar fichero
+  git add -A                     -> Agrega todo lo que tenemos
+  git commit -m "mensaje"        -> guarda lo agregado antes con el add
+  git log                        -> Ver los commits creados
+  git checkout codigoSHAdestino  -> saltar a un commit determinado
+  git checkout master            -> Mueveme al ultimo cambio
   
+- RESET: BORRAR COMMITS
   
-- COMITS
+  git reset  --soft  xxx -> Borra commit xxx, pero no toca nuestro codigo
+  git reset  --mixed xxx -> No se usa apenas
+  git reset  --hard  xxx -> Borra el codigo y el commit xxx
   
-  git status  -> Ver los cambios
-  git log  -> Ver los commits
-  git add -A                  ->  Sube cambios
-  git commit -m "texto comit" ->  Da mensaje al cambio subido con add
- 
+  git reset --soft codigoSHAdestino  -> Mata un commit, el codigo asociado no se borra
+  git reset --hard codigoSHAdestino  -> Mata un commit y el codigo asociado
+  
+- HELP
+
+  git help status -> Carga la web de la ayuda del comando status
+    
 - RAMAS
 
   git branch            ->   ver ramas
-  git branch rama1      ->   crea rama1
+  git branch rama1      ->   crea rama1 desde la que estemos situados
   git checkout rama 1   ->   nos mueve a la rama1
   git branch -D rama1   ->   Borra una la rama1
-  git checkout -b rama2 ->   nos crea rama2 y nos mueve a ella
+  git checkout -b rama2 ->   nos crea rama2 desde la que estemos y nos mueve a ella
   
 - FUSIONES O MERGES
 
   git checkout master   -> situarnos en la rama destino
   git merge    Test     ->  Master absorbe lo de Test
+  
+  
+NOTA: Pulsar "Q" pasa ir a la linea de comandos de Git bash
   
   
   
