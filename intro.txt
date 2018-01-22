@@ -11,7 +11,7 @@ PRUEBA CUATRO
 
   git log  -> Ver los commits
   git add -A                  ->  Sube cambios
-  git comit -m "texto comit"  ->  Da mensaje al cambio subido con add
+  git commit -m "texto comit" ->  Da mensaje al cambio subido con add
   
 
 - Ramas
