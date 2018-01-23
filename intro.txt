@@ -48,15 +48,17 @@ ssh://git@git-temp/SG/GEAR.git
   git checkout master   -> situarnos en la rama destino
   git merge    Test     ->  Master absorbe lo de Test
   
-- CLONADO CON REMOTOS
+- CLONADO CON REMOTOS : Git Hub repos en la nube
 
+   
   git clone urirepo -> bajar un proyecto de un remoto a nuestro local 
   git remote add origin vinculoremoto -> Vincula el proyecto local con el proyecto remoto
   git remote remove origin            -> elimina el vinculo creado en el paso anterior
   git remote -v  -> Comprueba el vinculo creado
   git push origin ramalocal_a_Subir_a_Remoto -> pasa nuestros commits local al remoto
       ejemplo:  git push origin master
-  
+	  
+  * Si creamos una rama local (git branch rama_x) para que se suba al remoto hacer: git push origin rama_x
   
 NOTA: Pulsar "Q" para ir a la linea de comandos de Git bash
   
