@@ -48,8 +48,9 @@ ssh://git@git-temp/SG/GEAR.git
   git checkout master   -> situarnos en la rama destino
   git merge    Test     ->  Master absorbe lo de Test
   
-- CLONADO CON REMOTOS
+- CLONADO CON REMOTOS : Git Hub repos en la nube
 
+   
   git clone urirepo -> bajar un proyecto de un remoto a nuestro local 
   git remote add origin vinculoremoto -> Vincula el proyecto local con el proyecto remoto
   git remote remove origin            -> elimina el vinculo creado en el paso anterior
